@@ -249,7 +249,7 @@ class AppLocalizationsFa extends AppLocalizations {
   }
 
   @override
-  String get finishBodyGoal => 'جلسه‌هایی که برای این هفته گذاشته بودی را زدی.';
+  String get finishBodyGoal => 'جلسه‌های تمرینی که برای این هفته گذاشته بودی را زدی.';
 
   @override
   String finishBodyStreak(int streak) {
@@ -311,7 +311,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get discardTitle => 'تمرین دور ریخته شود؟';
 
   @override
-  String get discardBody => 'ست‌های این جلسه از بین می‌روند.';
+  String get discardBody => 'ست‌های این جلسه تمرین از بین می‌روند.';
 
   @override
   String get keepTraining => 'ادامه تمرین';
@@ -654,7 +654,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get placeDeleteTitle => 'حذف مکان';
 
   @override
-  String get placeDeleteBody => 'فقط مکان می‌رود — حرکات و جلسه‌ها می‌مانند.';
+  String get placeDeleteBody => 'فقط مکان می‌رود — حرکات و جلسه‌های تمرین می‌مانند.';
 
   @override
   String get placeGym => 'باشگاه';
@@ -719,7 +719,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get noteEmptyTitle => 'هنوز چیزی نوشته نشده';
 
   @override
-  String get noteEmptyBody => 'نکته، برنامه برای دفعه بعد، حس جلسه — با عکس یا ویدیو اگر بخواهی.';
+  String get noteEmptyBody => 'نکته، برنامه برای دفعه بعد، حس جلسه تمرین — با عکس یا ویدیو اگر بخواهی.';
 
   @override
   String get noteNoneForExercise => 'هنوز یادداشتی روی این حرکت نیست.';
@@ -992,7 +992,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get sharePick => 'چه چیزی را می‌خواهی نشان بدهی؟';
 
   @override
-  String get shareSession => 'آخرین جلسه';
+  String get shareSession => 'آخرین جلسه تمرین';
 
   @override
   String get shareStreak => 'استریک و ثبات';
@@ -1016,7 +1016,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get shareStreakLabel => 'استریک روز';
 
   @override
-  String get shareSessionsLabel => 'جلسه‌ها';
+  String get shareSessionsLabel => 'جلسه‌های تمرین';
 
   @override
   String get shareVolumeLabel => 'حجم';
@@ -1161,7 +1161,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get resetBody =>
-      'جلسه‌ها، رکوردها، روتین‌ها، یادداشت‌ها و پروفایل. برگشتی نیست — اگر ممکن است بخواهی، اول یک بکاپ خروجی بگیر.';
+      'جلسه‌های تمرین، رکوردها، روتین‌ها، یادداشت‌ها و پروفایل. برگشتی نیست — اگر ممکن است بخواهی، اول یک بکاپ خروجی بگیر.';
 
   @override
   String get resetConfirm => 'حذف همه‌چیز';
@@ -1332,8 +1332,8 @@ class AppLocalizationsFa extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       n,
       locale: localeName,
-      other: '$n جلسه وارد شد',
-      one: '$n جلسه وارد شد',
+      other: '$n جلسه تمرین وارد شد',
+      one: '$n جلسه تمرین وارد شد',
     );
     return '$_temp0';
   }
@@ -1707,7 +1707,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get yourNumbers => 'عددهای تو';
 
   @override
-  String get sessionsCaps => 'جلسه‌ها';
+  String get sessionsCaps => 'جلسه‌های تمرین';
 
   @override
   String get liftedCaps => 'جابه‌جاشده';
@@ -1772,8 +1772,8 @@ class AppLocalizationsFa extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       n,
       locale: localeName,
-      other: '$n جلسه در هفته',
-      one: '$n جلسه در هفته',
+      other: '$n جلسه تمرین در هفته',
+      one: '$n جلسه تمرین در هفته',
     );
     return '$_temp0';
   }
@@ -2725,7 +2725,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get planSetsHint =>
-      'نوع، تکرار و وزن هر ست را انتخاب کن. وزن را روی Auto بگذار تا از آخرین جلسه‌ات شروع شود.';
+      'نوع، تکرار و وزن هر ست را انتخاب کن. وزن را روی Auto بگذار تا از آخرین جلسه تمرینت شروع شود.';
 
   @override
   String get autoValue => 'Auto';
