@@ -45,7 +45,7 @@
   "startWorkout": "شروع تمرین",
   "routines": "روتین‌ها",
   "tools": "ابزارها",
-  "firstSessionHint": "عضلاتت را انتخاب کن و اولین جلسه‌ات را ثبت کن",
+  "firstSessionHint": "عضلاتت را انتخاب کن و اولین جلسه تمرینت را ثبت کن",
   "exerciseCount": "{n, plural, =1{{n} حرکت} other{{n} حرکت}}",
   "@exerciseCount": {
     "placeholders": {
@@ -64,13 +64,13 @@
   "step1": "مرحله ۱ از ۲",
   "step2": "مرحله ۲ از ۲",
   "chooseFocus": "تمرکزت را انتخاب کن",
-  "buildSession": "جلسه‌ات را بساز",
+  "buildSession": "جلسه تمرینت را بساز",
   "tapMuscles": "عضله‌هایی که می‌خواهی تمرین کنی را لمس کن — جلو و پشت.",
   "noMusclesYet": "هنوز عضله‌ای انتخاب نشده — برای شروع بدن را لمس کن.",
   "continueBtn": "ادامه",
   "nothingForFocus": "هنوز چیزی برای این تمرکز نیست",
   "goBackPick": "برگرد و عضله‌ای را انتخاب کن که در کتابخانه‌ات حرکت دارد.",
-  "pickedHint": "یک جلسه برایت چیدیم — برای اضافه یا حذف هر کدام از {n} تا لمس کن.",
+  "pickedHint": "یک جلسه تمرین برایت چیدیم — برای اضافه یا حذف هر کدام از {n} تا لمس کن.",
   "@pickedHint": {
     "placeholders": {
       "n": {
@@ -96,7 +96,7 @@
   "rest": "استراحت",
   "skip": "رد کردن",
   "addSet": "+ افزودن ست",
-  "finishSession": "پایان جلسه",
+  "finishSession": "پایان جلسه تمرین",
   "setDone": "ست انجام شد",
   "nextExercise": "حرکت بعدی",
   "skipExercise": "این حرکت رد شود؟",
@@ -133,7 +133,7 @@
   "finishHeadlinePr": "رکورد شخصی جدید",
   "finishHeadlineGoal": "هدف هفتگی رسید",
   "finishHeadlineStreak": "استریک زنده است",
-  "finishHeadlineDefault": "یکی دیگر در حساب",
+  "finishHeadlineDefault": "یکی دیگر انجام شد",
   "finishBodyPr": "بیشتر از همیشه روی {prs, plural, =1{یک حرکت} other{{prs} حرکت}} زدی. الان در رکوردهایت است.",
   "@finishBodyPr": {
     "placeholders": {
@@ -200,7 +200,7 @@
   "restOverBody": "برگرد سر تمرین — ست بعدی منتظر است.",
   "totalVolume30d": "حجم کل · ۳۰ روز",
   "volumeCumulative": "جمع هر کیلو که جابه‌جا کردی",
-  "volumeChartEmpty": "یک جلسه ثبت کن تا منحنی از اینجا شروع شود",
+  "volumeChartEmpty": "یک جلسه تمرین ثبت کن تا نمودار از اینجا شروع شود",
   "weekRhythm": "ریتم هفته",
   "weekRhythmHint": "کدام روزها واقعاً می‌آیی.",
   "weekRhythmBest": "{day} روز توست",
@@ -211,13 +211,13 @@
       }
     }
   },
-  "weekRhythmEmpty": "یک جلسه ثبت کن تا هفته‌ات اینجا شکل بگیرد.",
+  "weekRhythmEmpty": "یک جلسه تمرین ثبت کن تا هفته‌ات اینجا مشخص شود.",
   "allTime": "همه زمان‌ها",
-  "allTimeSessions": "جلسه‌ها",
+  "allTimeSessions": "جلسه‌های تمرین",
   "allTimeTime": "زمان",
-  "allTimeVolume": "جابهجا شده",
+  "allTimeVolume": "جابه‌جاشده",
   "allTimeSets": "ست‌ها",
-  "allTimeAvg": "میانگین {time} در هر جلسه",
+  "allTimeAvg": "میانگین {time} در هر جلسه تمرین",
   "@allTimeAvg": {
     "placeholders": {
       "time": {
@@ -234,7 +234,7 @@
     }
   },
   "consistency": "ثبات",
-  "sessionsLogged": "{n, plural, =1{{n} جلسه ثبت‌شده} other{{n} جلسه ثبت‌شده}}",
+  "sessionsLogged": "{n, plural, =1{{n} جلسه تمرین ثبت‌شده} other{{n} جلسه تمرین ثبت‌شده}}",
   "@sessionsLogged": {
     "placeholders": {
       "n": {
@@ -260,7 +260,7 @@
   "days30": "۳۰ر",
   "heatLow": "دست‌نخورده",
   "heatHigh": "حجم کامل",
-  "muscleMapEmpty": "یک جلسه ثبت کن تا بدنت اینجا روشن شود.",
+  "muscleMapEmpty": "یک جلسه تمرین ثبت کن تا بدنت اینجا مشخص شود.",
   "muscleMapHint": "یک عضله را لمس کن تا ببینی چقدر کار کرده.",
   "muscleMapBehind": "عقب مانده: {names}",
   "@muscleMapBehind": {
@@ -283,7 +283,7 @@
   "personalRecords": "رکوردهای شخصی",
   "prEmpty": "با ثبت ست‌ها رکوردهایت اینجا ظاهر می‌شوند.",
   "strength1rm": "قدرت · تخمین ۱RM",
-  "strengthEmpty": "یک حرکت را دو بار ثبت کن تا منحنی قدرتش اینجا بیاید.",
+  "strengthEmpty": "یک حرکت را دو بار ثبت کن تا نمودار قدرتش اینجا بیاید.",
   "oneRmEst": "تخمین ۱RM {w}",
   "@oneRmEst": {
     "placeholders": {
@@ -337,7 +337,7 @@
   "noExercisesHint": "جستجوی دیگری امتحان کن یا فیلترها را پاک کن.",
   "personalRecord": "رکورد شخصی",
   "history": "تاریخچه",
-  "noHistory": "هنوز جلسه‌ای ثبت نشده. این حرکت را تمرین کن تا تاریخچه ساخته شود.",
+  "noHistory": "هنوز جلسه تمرینی ثبت نشده. این حرکت را تمرین کن تا تاریخچه ساخته شود.",
   "notes": "یادداشت‌ها",
   "notePlaceholder": "نکته، ستاپ، حس حرکت…",
   "showAllNotes": "نمایش همه {n} یادداشت",
@@ -536,10 +536,10 @@
   "deleteDayBody": "عکس‌هایش هم برای همیشه می‌روند.",
   "timelinePhotos": "عکس‌ها",
   "timelineBody": "نقشه عضلات",
-  "timelineBodyEmpty": "یک جلسه ثبت کن تا نقشه عضلات اینجا پر شود، بدون نیاز به عکس.",
+  "timelineBodyEmpty": "یک جلسه تمرین ثبت کن تا نقشه عضلات اینجا پر شود، بدون نیاز به عکس.",
   "timelineBodyHint": "از ست‌های خودت ساخته شده — چیزی برای آپلود نیست.",
   "timelineWindow": "{from} – {to}",
-  "sessionCount": "{n, plural, =0{بدون جلسه} =1{۱ جلسه} other{{n} جلسه}}",
+  "sessionCount": "{n, plural, =0{بدون جلسه تمرین} =1{۱ جلسه تمرین} other{{n} جلسه تمرین}}",
   "@sessionCount": {
     "placeholders": {
       "n": {
@@ -558,7 +558,7 @@
     }
   },
   "notifPhotoChannel": "عکس پیشرفت",
-  "notifPhotoChannelWhy": "وقتی عکس پیشرفت بعدی‌ات موعد شد یک تلنگر.",
+  "notifPhotoChannelWhy": "وقتی عکس پیشرفت بعدی‌ات موعد شد یک یادآوری.",
   "notifPhotoTitle": "وقت عکس پیشرفت",
   "notifPhotoBody": "{n} روز از قبلی گذشته. همان ژست، همان نور.",
   "@notifPhotoBody": {
@@ -581,7 +581,7 @@
   "shareSessionsLabel": "جلسه‌ها",
   "shareVolumeLabel": "حجم",
   "shareSetsLabel": "ست‌ها",
-  "shareNothing": "اول یک جلسه ثبت کن — هنوز چیزی برای نشان دادن نیست",
+  "shareNothing": "اول یک جلسه تمرین ثبت کن — هنوز چیزی برای نشان دادن نیست",
   "restForExercise": "استراحت برای این حرکت",
   "restUsingDefault": "با پیش‌فرض تو",
   "restCustom": "فقط برای همین",
@@ -766,7 +766,7 @@
   "backupCopied": "بکاپ در کلیپ‌بورد کپی شد",
   "backupImported": "بکاپ وارد شد",
   "backupFailed": "خواندن آن بکاپ ممکن نشد",
-  "nothingToExport": "هنوز چیزی برای خروجی نیست — اول یک جلسه ثبت کن",
+  "nothingToExport": "هنوز چیزی برای خروجی نیست — اول یک جلسه تمرین ثبت کن",
   "athlete": "ورزشکار",
   "calculatorsCount": "{n} ماشین‌حساب برای تمرینت",
   "@calculatorsCount": {
@@ -1032,9 +1032,9 @@
   "autoWarmup": "شروع با ست‌های گرم‌کردن",
   "autoWarmupHint": "وقتی تمرین باز می‌شود ست‌های رمپ‌آپ را اضافه می‌کند.",
   "trainReminder": "یادآور تمرین",
-  "trainReminderHint": "در این ساعت فقط در روزهایی که روتینت برنامه‌ریزی شده یک تلنگر.",
+  "trainReminderHint": "در این ساعت فقط در روزهایی که روتینت برنامه‌ریزی شده یک یادآوری.",
   "notifTrainChannel": "یادآور تمرین",
-  "notifTrainChannelWhy": "در روزهایی که برنامه‌ریزی کردی برای تمرین تلنگرت می‌زند.",
+  "notifTrainChannelWhy": "در روزهایی که برنامه‌ریزی کردی برای تمرین یادآوری‌ات می‌کند.",
   "notifTrainTitle": "وقت تمرین",
   "notifTrainBody": "روتینت منتظر است.",
   "exportCatalog": "خروجی فهرست حرکات",
