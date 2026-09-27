@@ -58,7 +58,7 @@
   "pullDay": "روز کشش",
   "legDay": "روز پا",
   "pushFocus": "سینه · شانه · پشت‌بازو",
-  "pullFocus": "پشت · جلوبازو · تراپز",
+  "pullFocus": "پشت · جلو‌بازو · تراپز",
   "legFocus": "چهارسر · همسترینگ · باسن",
   "train": "تمرین",
   "step1": "مرحله ۱ از ۲",
@@ -70,7 +70,7 @@
   "continueBtn": "ادامه",
   "nothingForFocus": "هنوز چیزی برای این تمرکز نیست",
   "goBackPick": "برگرد و عضله‌ای را انتخاب کن که در کتابخانه‌ات حرکت دارد.",
-  "pickedHint": "یک جلسه تمرین برایت چیدیم — برای اضافه یا حذف هر کدام از {n} تا لمس کن.",
+  "pickedHint": "یک جلسه تمرین برایت چیدیم — هر کدام از این {n} تا را برای اضافه یا حذف لمس کن.",
   "@pickedHint": {
     "placeholders": {
       "n": {
@@ -91,7 +91,7 @@
     }
   },
   "inProgress": "در حال انجام",
-  "paused": "متوقف",
+  "paused": "توقف",
   "last": "قبلی",
   "rest": "استراحت",
   "skip": "رد کردن",
@@ -131,10 +131,10 @@
   },
   "sessionComplete": "تمرین ثبت شد",
   "finishHeadlinePr": "رکورد شخصی جدید",
-  "finishHeadlineGoal": "هدف هفتگی رسید",
-  "finishHeadlineStreak": "استریک زنده است",
-  "finishHeadlineDefault": "یکی دیگر انجام شد",
-  "finishBodyPr": "بیشتر از همیشه روی {prs, plural, =1{یک حرکت} other{{prs} حرکت}} زدی. الان در رکوردهایت است.",
+  "finishHeadlineGoal": "به هدف هفتگی رسیدی",
+  "finishHeadlineStreak": "استریک ادامه دارد",
+  "finishHeadlineDefault": "یک تمرین دیگر تمام شد",
+  "finishBodyPr": "روی {prs, plural, =1{یک حرکت} other{{prs} حرکت}} از همیشه سنگین‌تر زدی. الان توی رکوردهایت ثبت است.",
   "@finishBodyPr": {
     "placeholders": {
       "prs": {
@@ -142,7 +142,7 @@
       }
     }
   },
-  "finishBodyGoal": "جلسه‌های تمرینی که برای این هفته گذاشته بودی را زدی.",
+  "finishBodyGoal": "هدف جلسه‌های تمرین این هفته را زدی.",
   "finishBodyStreak": "{streak} روز پشت‌سرهم. سخت‌ترین بخش متوقف نشدن است.",
   "@finishBodyStreak": {
     "placeholders": {
@@ -151,7 +151,7 @@
       }
     }
   },
-  "finishBodyDefault": "ثبت شد و شمرده شد. ثبات است که عددها را جابه‌جا می‌کند.",
+  "finishBodyDefault": "ثبت شد و شمرده شد. ثبات است که آمار را جلو می‌برد.",
   "vsLastTime": "نسبت به دفعه قبل",
   "firstTime": "اولین ثبت",
   "prCount": "{n, plural, =1{{n} رکورد جدید} other{{n} رکورد جدید}}",
@@ -188,7 +188,7 @@
   },
   "pauseWorkout": "توقف تمرین",
   "resumeWorkout": "ادامه تمرین",
-  "discardTitle": "تمرین دور ریخته شود؟",
+  "discardTitle": "تمرین دور انداخته شود؟",
   "discardBody": "ست‌های این جلسه تمرین از بین می‌روند.",
   "keepTraining": "ادامه تمرین",
   "discard": "دور انداختن",
@@ -199,11 +199,11 @@
   "restOverTitle": "استراحت تمام شد",
   "restOverBody": "برگرد سر تمرین — ست بعدی منتظر است.",
   "totalVolume30d": "حجم کل · ۳۰ روز",
-  "volumeCumulative": "جمع هر کیلو که جابه‌جا کردی",
-  "volumeChartEmpty": "یک جلسه تمرین ثبت کن تا نمودار از اینجا شروع شود",
+  "volumeCumulative": "مجموع کیلویی که جابه‌جا کرده‌ای",
+  "volumeChartEmpty": "یک جلسه تمرین ثبت کن تا نمودار از اینجا بالا بیاید",
   "weekRhythm": "ریتم هفته",
-  "weekRhythmHint": "کدام روزها واقعاً می‌آیی.",
-  "weekRhythmBest": "{day} روز توست",
+  "weekRhythmHint": "ببین کدام روزها واقعاً می‌آیی.",
+  "weekRhythmBest": "بیشتر در {day} می‌آیی",
   "@weekRhythmBest": {
     "placeholders": {
       "day": {
@@ -225,7 +225,7 @@
       }
     }
   },
-  "hoursShort": "{n}س",
+  "hoursShort": "{n} ساعت",
   "@hoursShort": {
     "placeholders": {
       "n": {
@@ -258,11 +258,11 @@
   "muscleMap": "نقشه عضلات",
   "days7": "۷ر",
   "days30": "۳۰ر",
-  "heatLow": "دست‌نخورده",
+  "heatLow": "بدون تمرین",
   "heatHigh": "حجم کامل",
   "muscleMapEmpty": "یک جلسه تمرین ثبت کن تا بدنت اینجا مشخص شود.",
   "muscleMapHint": "یک عضله را لمس کن تا ببینی چقدر کار کرده.",
-  "muscleMapBehind": "عقب مانده: {names}",
+  "muscleMapBehind": "عقب‌مانده: {names}",
   "@muscleMapBehind": {
     "placeholders": {
       "names": {
@@ -282,9 +282,9 @@
   "splitEmpty": "تمرین کن تا ببینی حجم بین گروه‌های عضلانی چطور تقسیم می‌شود.",
   "personalRecords": "رکوردهای شخصی",
   "prEmpty": "با ثبت ست‌ها رکوردهایت اینجا ظاهر می‌شوند.",
-  "strength1rm": "قدرت · تخمین ۱RM",
+  "strength1rm": "قدرت · تخمین 1RM",
   "strengthEmpty": "یک حرکت را دو بار ثبت کن تا نمودار قدرتش اینجا بیاید.",
-  "oneRmEst": "تخمین ۱RM {w}",
+  "oneRmEst": "تخمین 1RM {w}",
   "@oneRmEst": {
     "placeholders": {
       "w": {
@@ -330,7 +330,7 @@
   "changeMedia": "تغییر",
   "videoSelected": "ویدیو انتخاب شد",
   "favouritesOnly": "علاقه‌مندی‌ها",
-  "noFavouritesYet": "هنوز علاقه‌مندی نیست",
+  "noFavouritesYet": "هنوز علاقه‌مندی نداری",
   "noFavouritesHint": "ستاره روی یک حرکت را لمس کن تا اینجا بماند.",
   "clearFilters": "پاک کردن فیلترها",
   "noExercisesFound": "حرکتی پیدا نشد",
@@ -339,8 +339,8 @@
   "history": "تاریخچه",
   "noHistory": "هنوز جلسه تمرینی ثبت نشده. این حرکت را تمرین کن تا تاریخچه ساخته شود.",
   "notes": "یادداشت‌ها",
-  "notePlaceholder": "نکته، ستاپ، حس حرکت…",
-  "showAllNotes": "نمایش همه {n} یادداشت",
+  "notePlaceholder": "نکته، آماده‌سازی، حس حرکت…",
+  "showAllNotes": "{n} یادداشت را ببین",
   "@showAllNotes": {
     "placeholders": {
       "n": {
@@ -369,7 +369,7 @@
   "placeNameLabel": "نام",
   "placeNamePlaceholder": "خانه، باشگاه، پارک…",
   "placeGearLabel": "چه چیزی هست",
-  "placeGearCount": "{n, plural, =0{هیچ‌کدام تیک نخورده} =1{۱ نوع وسیله} other{{n} نوع وسیله}}",
+  "placeGearCount": "{n, plural, =0{هیچ‌کدام انتخاب نشده} =1{۱ نوع وسیله} other{{n} نوع وسیله}}",
   "@placeGearCount": {
     "placeholders": {
       "n": {
@@ -386,9 +386,9 @@
     }
   },
   "placeEmptyTitle": "هرجا که هستی تمرین کن",
-  "placeEmptyBody": "یک مکان فهرست وسیله‌هایی است که آنجا داری. یکی را برای شروع بساز و بعداً ویرایش کن.",
+  "placeEmptyBody": "یک مکان، فهرستی از وسیله‌هایی است که آنجا داری. یکی را برای شروع بساز و بعداً ویرایش کن.",
   "placeDeleteTitle": "حذف مکان",
-  "placeDeleteBody": "فقط مکان می‌رود — حرکات و جلسه‌های تمرین می‌مانند.",
+  "placeDeleteBody": "فقط مکان حذف می‌شود — حرکات و جلسه‌های تمرین می‌مانند.",
   "placeGym": "باشگاه",
   "placeHome": "خانه",
   "placeOutdoors": "فضای باز",
@@ -413,8 +413,8 @@
   },
   "noteKindNote": "یادداشت",
   "noteKindPlan": "برنامه",
-  "noteKindDone": "موفقیت",
-  "noteKindPain": "ناراحتی",
+  "noteKindDone": "برد",
+  "noteKindPain": "درد خفیف",
   "noteFilterAll": "همه",
   "newNote": "یادداشت جدید",
   "editNote": "ویرایش یادداشت",
@@ -431,7 +431,7 @@
   "noteAttach": "پیوست",
   "noteRemoveMedia": "حذف پیوست",
   "deleteNoteTitle": "حذف یادداشت",
-  "deleteNoteBody": "یادداشت و هرچه به آن پیوست شده برای همیشه می‌رود.",
+  "deleteNoteBody": "یادداشت و هرچه به آن پیوست شده برای همیشه پاک می‌شود.",
   "noteToday": "امروز",
   "noteYesterday": "دیروز",
   "noteAllNotes": "همه یادداشت‌ها",
@@ -472,7 +472,7 @@
   "measureBodyfat": "چربی بدن",
   "timeline": "تایم‌لاین",
   "timelineHint": "همان ژست، همان جا، همان نور. یک سال بعد باور نمی‌کنی.",
-  "timelineEmptyTitle": "اولین عکست ساعت را راه می‌اندازد",
+  "timelineEmptyTitle": "با اولین عکس، تایم‌لاین شروع می‌شود",
   "photoCount": "{n, plural, =0{بدون عکس} =1{۱ عکس} other{{n} عکس}}",
   "@photoCount": {
     "placeholders": {
@@ -533,7 +533,7 @@
     }
   },
   "deleteEntryTitle": "حذف این روز",
-  "deleteDayBody": "عکس‌هایش هم برای همیشه می‌روند.",
+  "deleteDayBody": "عکس‌هایش هم برای همیشه پاک می‌شوند.",
   "timelinePhotos": "عکس‌ها",
   "timelineBody": "نقشه عضلات",
   "timelineBodyEmpty": "یک جلسه تمرین ثبت کن تا نقشه عضلات اینجا پر شود، بدون نیاز به عکس.",
@@ -577,7 +577,7 @@
   "shareHint": "کارت روی گوشی‌ات ساخته می‌شود. تا جایی را انتخاب نکنی چیزی بیرون نمی‌رود.",
   "shareFailed": "کارت ساخته نشد",
   "shareWeekOf": "۷ روز اخیر",
-  "shareStreakLabel": "استریک روز",
+  "shareStreakLabel": "استریک روزانه",
   "shareSessionsLabel": "جلسه‌های تمرین",
   "shareVolumeLabel": "حجم",
   "shareSetsLabel": "ست‌ها",
@@ -586,7 +586,7 @@
   "restUsingDefault": "با پیش‌فرض تو",
   "restCustom": "فقط برای همین",
   "setType": "نوع ست",
-  "setTypeNormal": "کاری",
+  "setTypeNormal": "ست کاری",
   "setTypeWarmup": "گرم‌کردن",
   "setTypeDrop": "دراپ ست",
   "setTypeFailure": "تا ناتوانی",
@@ -647,7 +647,7 @@
     }
   },
   "newRoutineName": "روتین جدید",
-  "dragToReorder": "نگه دار و بکش تا جابه‌جا کنی — ترتیب تمرینت همین است.",
+  "dragToReorder": "نگه‌دار و بکش تا جابه‌جا کنی — ترتیب تمرینت همین است.",
   "reorderHandle": "جابه‌جایی {name}",
   "@reorderHandle": {
     "placeholders": {
@@ -687,7 +687,7 @@
   "unitsLabel": "واحدها",
   "restTimer": "تایمر استراحت",
   "alarmBlockedTitle": "اعلان‌ها خاموش‌اند",
-  "alarmBlockedBody": "با صفحه قفل، آلارم استراحت زنگ نمی‌زند",
+  "alarmBlockedBody": "وقتی صفحه قفل است، آلارم استراحت زنگ نمی‌زند",
   "alarmBlockedAction": "روشن کردن",
   "alarmSound": "صدای آلارم",
   "alarmDefaultName": "پیش‌فرض",
@@ -712,7 +712,7 @@
   "pinUnsupported": "از منوی ویجت لانچرت اضافه‌اش کن",
   "background": "پس‌زمینه",
   "bgNone": "هیچ",
-  "bgDots": "نقطه",
+  "bgDots": "نقطه‌ها",
   "bgGrid": "شبکه",
   "data": "داده",
   "exportCsv": "خروجی تمرین‌ها (CSV)",
@@ -723,7 +723,7 @@
   "chooseFile": "انتخاب فایل",
   "importFromApp": "وارد کردن از اپ دیگر",
   "importUnknownFormat": "آن فایل به ستون‌های تاریخ، حرکت، تکرار و وزن نیاز دارد",
-  "importZipNoWeights": "آن zip فایل وزن ندارد",
+  "importZipNoWeights": "آن zip فایل وزن‌کشی ندارد",
   "importWeights": "{n, plural, =1{{n} وزن‌کشی وارد شد} other{{n} وزن‌کشی وارد شد}}",
   "@importWeights": {
     "placeholders": {
@@ -734,7 +734,7 @@
   },
   "importReadFailed": "خواندن آن فایل ممکن نشد",
   "importUnitTitle": "آن فایل با کدام واحد است؟",
-  "importUnitBody": "این خروجی نگفته وزن‌ها با کدام واحدند.",
+  "importUnitBody": "این خروجی نگفته وزن‌ها با کدام واحد هستند.",
   "importNothing": "چیز جدیدی برای وارد کردن نیست",
   "importDone": "{n, plural, =1{{n} جلسه تمرین وارد شد} other{{n} جلسه تمرین وارد شد}}",
   "@importDone": {
@@ -750,7 +750,7 @@
   "nameLabel": "نام",
   "sexLabel": "جنسیت",
   "macroProtein": "پروتئین",
-  "macroCarbs": "کربوهیدرات",
+  "macroCarbs": "کربو",
   "macroFat": "چربی",
   "male": "مرد",
   "female": "زن",
@@ -820,7 +820,7 @@
   "toolTitlePlate": "ماشین‌حساب وزنه",
   "toolTitleWarmup": "ست‌های گرم‌کردن",
   "toolHintRm": "تخمین یک‌تکرار بیشینه (فرمول Epley)",
-  "toolHintCal": "تخمین نگهداری روزانه",
+  "toolHintCal": "تخمین کالری نگهداری روزانه",
   "toolHintBf": "تخمین روش نیروی دریایی آمریکا",
   "toolHintPlate": "وزن کل هالتر",
   "toolHintWarmup": "هدف وزن کاری",
@@ -829,7 +829,7 @@
   "toolDescCal": "کالری و ماکرو",
   "toolDescBf": "درصد چربی بدن",
   "toolDescPlate": "ماشین‌حساب وزنه هالتر",
-  "toolDescWarmup": "ست‌های رمپ‌آپ",
+  "toolDescWarmup": "ست‌های گرم‌کردن پلکانی",
   "bmiUnderweight": "کم‌وزن",
   "bmiNormal": "طبیعی",
   "bmiOverweight": "اضافه‌وزن",
@@ -841,7 +841,7 @@
   "muscleChest": "سینه",
   "muscleBack": "پشت",
   "muscleShoulders": "شانه‌ها",
-  "muscleBiceps": "جلوبازو",
+  "muscleBiceps": "جلو‌بازو",
   "muscleTriceps": "پشت‌بازو",
   "muscleForearm": "ساعد",
   "muscleTrapezius": "تراپز",
@@ -879,14 +879,14 @@
       }
     }
   },
-  "aboutBlurb": "ساخته‌شده توسط وزنه‌زن‌ها، برای وزنه‌زن‌ها.",
+  "aboutBlurb": "ساخته توسط وزنه‌زن‌ها، برای وزنه‌زن‌ها.",
   "freeForever": "برای همیشه رایگان",
-  "freeForeverWhy": "بدون اشتراک، بدون تبلیغ، بدون دیوار پرداخت.",
+  "freeForeverWhy": "بدون اشتراک، بدون تبلیغ، بدون پرداخت اجباری.",
   "fullyOffline": "کاملاً آفلاین",
   "fullyOfflineWhy": "بدون حساب، بدون سرور. تمرینت هرگز از این گوشی خارج نمی‌شود.",
   "yoursToTake": "داده‌ات مال توست",
   "yoursToTakeWhy": "هر وقت خواستی به CSV خروجی بگیر و با یک ضربه همه‌اش را پاک کن.",
-  "whatsInside": "چه چیزهایی داخل است",
+  "whatsInside": "امکانات",
   "exercisesInside": "{n} حرکت",
   "@exercisesInside": {
     "placeholders": {
@@ -898,8 +898,8 @@
   "exercisesInsideWhy": "هر کدام با انیمیشن و دستور گام‌به‌گام.",
   "calculatorsInside": "۶ ماشین‌حساب",
   "calculatorsInsideWhy": "1RM، وزنه، BMI، کالری، چربی بدن و گرم‌کردن — همه با فرمول‌های منتشرشده.",
-  "mathInside": "ریاضی صادقانه",
-  "mathInsideWhy": "حجم، رکورد و استریک از ست‌های خودت می‌آید. این‌جا چیزی تزئینی نیست.",
+  "mathInside": "آمار واقعی",
+  "mathInsideWhy": "حجم، رکورد و استریک از ست‌های خودت می‌آید. اینجا چیزی تزئینی نیست.",
   "yourNumbers": "عددهای تو",
   "sessionsCaps": "جلسه‌های تمرین",
   "liftedCaps": "جابه‌جاشده",
@@ -922,7 +922,7 @@
     }
   },
   "reset": "بازنشانی",
-  "welcomeKicker": "خوش آمدی به",
+  "welcomeKicker": "خوش‌آمدی به",
   "welcomeBlurb": "همه‌چیز روی گوشی‌ات می‌ماند. بدون حساب، بدون اینترنت، بدون پرداخت.",
   "welcomeStart": "شروع کن",
   "onbStep": "مرحله {i} از {n}",
@@ -940,7 +940,7 @@
   "onbNameHint": "نامت",
   "onbNameWhy": "فقط برای سلام. هرگز از گوشی خارج نمی‌شود.",
   "onbBodyTitle": "چند عدد",
-  "onbBodyWhy": "ماشین‌حساب‌ها را تغذیه می‌کنند. هر وقت در تنظیمات عوضشان کن.",
+  "onbBodyWhy": "برای ماشین‌حساب‌ها لازم‌اند. هر وقت در تنظیمات عوضشان کن.",
   "onbGoalTitle": "چند وقت یک‌بار تمرین می‌کنی؟",
   "onbGoalWhy": "حلقه هدف هفتگی‌ات را تنظیم می‌کند. صادق باش، نه بلندپرواز.",
   "perWeek": "{n, plural, =1{{n} جلسه تمرین در هفته} other{{n} جلسه تمرین در هفته}}",
@@ -953,9 +953,9 @@
   },
   "onbUnitsTitle": "کیلو یا پوند؟",
   "next": "بعدی",
-  "back": "بازگشت",
+  "back": "قبلی",
   "skip2": "رد کردن",
-  "madeWithLoveBy": "ساخته‌شده با عشق توسط",
+  "madeWithLoveBy": "ساخته با عشق به‌دست",
   "sourceCode": "کد منبع",
   "suggested": "پیشنهادی",
   "results": "نتایج",
@@ -965,7 +965,7 @@
   "editEntryHint": "تکرار یا وزن هر ست را اصلاح کن.",
   "removeSet": "حذف ست",
   "continueWorkout": "ادامه",
-  "continueWorkoutBody": "تمرین دوباره به حالت درحال‌انجام برمی‌گردد، با ست‌های تیک‌خورده. تمام کردنش دوباره همان روز اصلی را ذخیره می‌کند.",
+  "continueWorkoutBody": "تمرین دوباره به حالت در حال انجام برمی‌گردد، با ست‌های انجام‌شده. تمام کردنش دوباره همان روز اصلی را ذخیره می‌کند.",
   "addBodyWidget": "افزودن ویجت نقشه عضلات",
   "repsOnly": "فقط تکرار",
   "repsOnlyHint": "این حرکت را بدون وزن ثبت کن.",
@@ -979,12 +979,12 @@
     }
   },
   "focusCard": "تمرکز امروز",
-  "autoAdvance": "رفتن خودکار به بعدی",
+  "autoAdvance": "رفتن خودکار به حرکت بعد",
   "keepScreenOn": "صفحه هنگام تمرین روشن بماند",
   "lockWorkout": "قفل صفحه",
   "unlockWorkout": "باز کردن",
   "lockedCaps": "قفل",
-  "holdToUnlock": "نگه دار تا باز شود",
+  "holdToUnlock": "نگه‌دار تا باز شود",
   "liveChannel": "تمرین جاری",
   "liveChannelWhy": "حرکت فعلی، ست و تایمر استراحت را هنگام تمرین نشان می‌دهد",
   "liveSet": "ست {n} از {total}",
@@ -1000,9 +1000,9 @@
   },
   "liveResting": "در حال استراحت",
   "liveAllDone": "همه ست‌ها انجام شد",
-  "autoAdvanceHint": "وقتی آخرین ست یک حرکت تیک خورد، تمرین جلو می‌رود.",
+  "autoAdvanceHint": "وقتی آخرین ست یک حرکت انجام‌شده شد، تمرین جلو می‌رود.",
   "autoProgress": "دفعه بعد وزن اضافه کن",
-  "autoProgressHint": "همه تکرارها را بزن و جلسه بعد {w} سنگین‌تر شروع می‌شود.",
+  "autoProgressHint": "همه تکرارها را بزن و جلسه تمرین بعد {w} سنگین‌تر شروع می‌شود.",
   "@autoProgressHint": {
     "placeholders": {
       "w": {
@@ -1030,9 +1030,9 @@
     }
   },
   "autoWarmup": "شروع با ست‌های گرم‌کردن",
-  "autoWarmupHint": "وقتی تمرین باز می‌شود ست‌های رمپ‌آپ را اضافه می‌کند.",
+  "autoWarmupHint": "وقتی تمرین باز می‌شود ست‌های گرم‌کردن پلکانی را اضافه می‌کند.",
   "trainReminder": "یادآور تمرین",
-  "trainReminderHint": "در این ساعت فقط در روزهایی که روتینت برنامه‌ریزی شده یک یادآوری.",
+  "trainReminderHint": "فقط در روزهای برنامه‌ریزی‌شده روتین، همین ساعت یادآوری می‌کند.",
   "notifTrainChannel": "یادآور تمرین",
   "notifTrainChannelWhy": "در روزهایی که برنامه‌ریزی کردی برای تمرین یادآوری‌ات می‌کند.",
   "notifTrainTitle": "وقت تمرین",
@@ -1067,11 +1067,11 @@
   "dimSoft": "ملایم",
   "dimMedium": "متوسط",
   "dimStrong": "قوی",
-  "bgPhotoHint": "پشت همه‌چیز می‌نشیند، تیره‌شده تا اپ خوانا بماند.",
+  "bgPhotoHint": "پشت همه‌چیز قرار می‌گیرد، تیره‌شده تا اپ خوانا بماند.",
   "reminderSmart": "هوشمند",
   "reminderFixed": "ساعت ثابت",
   "reminderSmartHint": "روزها و ساعتی که واقعاً تمرین می‌کنی را استفاده می‌کند و روزی که تمرین کرده‌ای ساکت می‌ماند.",
-  "reminderSmartEmpty": "چند جلسه دیگر ثبت کن تا روزهایت را یاد بگیرد.",
+  "reminderSmartEmpty": "چند جلسه تمرین دیگر ثبت کن تا روزهایت را یاد بگیرد.",
   "habitFocus": "آنچه معمولاً در {day} تمرین می‌کنی",
   "@habitFocus": {
     "placeholders": {
@@ -1091,7 +1091,7 @@
   },
   "saveAsRoutine": "ذخیره به‌عنوان روتین",
   "savedAsRoutine": "به‌عنوان روتین ذخیره شد",
-  "templates": "برنامه‌های آماده‌",
+  "templates": "برنامه‌های آماده",
   "templatesHint": "برنامه‌های کلاسیک، از کتابخانه خودت. بعداً هرچیزی را عوض کن.",
   "templateAdded": "{n, plural, =1{{n} روتین اضافه شد} other{{n} روتین اضافه شد}}",
   "@templateAdded": {
@@ -1105,8 +1105,8 @@
   "tplPpl": "پرس، کشش و پا. سه یا شش روز در هفته.",
   "tplUpperlower": "بالاتنه و پایین‌تنه، چهار روز در هفته.",
   "tplStronglifts": "دو تمرین، پنج ست پنج‌تایی، یکی در میان.",
-  "tplStartingstrength": "اسکوات هر جلسه، دو تمرین یکی در میان.",
-  "tplHome": "فقط یک میله برای آویزان شدن و زمین.",
+  "tplStartingstrength": "اسکوات هر جلسه تمرین، دو تمرین یکی در میان.",
+  "tplHome": "فقط میله بارفیکس و کف زمین.",
   "dayCount": "{n, plural, =1{{n} روز} other{{n} روز}}",
   "@dayCount": {
     "placeholders": {
@@ -1117,10 +1117,10 @@
   },
   "logRpe": "ثبت تلاش (RPE)",
   "rpeTitle": "تلاش (RPE)",
-  "rpeHint": "۱۰ یعنی هیچی در مخزن نمانده، ۸ یعنی دو تکرار ذخیره.",
+  "rpeHint": "۱۰ یعنی دیگر نمی‌توانی، ۸ یعنی دو تکرار مانده.",
   "superset": "سوپرست",
-  "supersetLink": "زنجیر با بعدی",
-  "supersetHint": "بین حرکات زنجیره‌شده استراحت نیست — مستقیم می‌روی سراغ بعدی.",
+  "supersetLink": "وصل به بعدی",
+  "supersetHint": "بین حرکات سوپرست استراحت نیست — مستقیم می‌روی سراغ بعدی.",
   "aiRoutine": "روتین با AI",
   "aiIntro": "GymMane هرگز با AI حرف نمی‌زند. فهرست حرکاتت را بیرون می‌بری، در هر دستیار که داری پیست می‌کنی، و جوابش را برمی‌گردانی. چیزی خودبه‌خود از گوشی خارج نمی‌شود.",
   "aiStep1": "فهرست حرکاتت را خروجی بگیر. اگر مکانی انتخاب کرده باشی، فقط آنچه آنجا می‌توانی را شامل می‌شود.",
@@ -1153,18 +1153,18 @@
   "awardSets100Name": "صد ست",
   "awardSets100Line": "صد ست تمام‌شده، یکی‌یکی.",
   "awardHours10Name": "ده ساعت",
-  "awardHours10Line": "ده ساعت تمرین روی ساعت.",
+  "awardHours10Line": "ده ساعت تمرین ثبت‌شده.",
   "awardWorkouts50Name": "پنجاه تمرین",
-  "awardWorkouts50Line": "پنجاه جلسه پشت سرت.",
+  "awardWorkouts50Line": "پنجاه جلسه تمرین پشت سرت.",
   "awardHours50Name": "پنجاه ساعت",
   "awardHours50Line": "پنجاه ساعت داخل باشگاه.",
   "awardsTitle": "مدال‌ها",
-  "awardWon": "کسب‌شده",
+  "awardWon": "گرفته‌شده",
   "yearTitle": "سال تو",
   "yearBestMonth": "بهترین ماه",
   "yearMonths": "ماه",
   "awardSpinHint": "مدال را بکش تا بچرخد",
-  "awardUnlocked": "دستاورد جدید باز شد",
+  "awardUnlocked": "مدال جدید باز شد",
   "awardNice": "عالی!",
   "awardSaveImage": "ذخیره تصویر",
   "awardSaved": "در گالری ذخیره شد",
@@ -1178,7 +1178,7 @@
   "awardWorkouts100Top": "صد",
   "awardWorkouts100Bottom": "تمرین",
   "awardWorkouts100Name": "صد تمرین",
-  "awardWorkouts100Line": "صد جلسه از اول تا آخر ثبت شد.",
+  "awardWorkouts100Line": "صد جلسه تمرین از اول تا آخر ثبت شد.",
   "awardTonnes100Top": "صد",
   "awardTonnes100Bottom": "تن",
   "awardTonnes100Name": "صد تن",
@@ -1192,18 +1192,18 @@
   "pickBadge": "نشان",
   "badgeTitle": "نشان تو",
   "statWorkouts": "تمرین‌ها",
-  "statTrained": "تمرین‌کرده",
+  "statTrained": "مدت تمرین",
   "statSets": "ست‌ها",
   "statLifted": "جابه‌جاشده",
   "statStreak": "استریک",
   "statDays": "روز",
-  "unitHours": "س",
+  "unitHours": "ساعت",
   "unitDays": "روز",
   "snapshots": "عکس‌ها",
   "snapNow": "یکی بگیر",
   "calendarLegend": "تمرین · عکس",
   "addCover": "افزودن کاور",
-  "addTodayWidget": "امروز انجام‌شده یا نه",
+  "addTodayWidget": "وضعیت امروز",
   "monthTitle": "این ماه",
   "photosCard": "عکس‌های تو",
   "handleLabel": "نام کاربری",
@@ -1215,25 +1215,25 @@
   "setupPhoto": "اولین عکس پیشرفتت را بگیر",
   "progressTitle": "پیشرفت",
   "tileVolume30": "حجم · ۳۰ر",
-  "tileAddWeight": "مال خودت را اضافه کن",
-  "heatToneTitle": "رنگ حرارت",
+  "tileAddWeight": "وزنت را اضافه کن",
+  "heatToneTitle": "رنگ نقشه",
   "heatToneHint": "فقط نحوه رنگ‌آمیزی شبکه و بدن را عوض می‌کند.",
   "thisWeekTitle": "این هفته",
   "momentsEmptyTitle": "هنوز چیزی اینجا نیست",
   "deletePhotoTitle": "این عکس حذف شود؟",
-  "deletePhotoBody": "برای همیشه می‌رود.",
-  "awardsEarned": "کسب‌شده",
+  "deletePhotoBody": "برای همیشه پاک می‌شود.",
+  "awardsEarned": "گرفته‌شده",
   "awardsLocked": "قفل",
   "awardStreak100Name": "صد روز",
   "awardWorkouts10Name": "ده تمرین",
-  "awardWorkouts10Line": "ده تای اول همان‌هایی‌اند که تصمیم می‌گیرند.",
+  "awardWorkouts10Line": "ده تای اول همان‌هایی‌اند که کار را جدی می‌کنند.",
   "awardWorkouts365Name": "سیصد و شصت و پنج",
   "awardWorkouts365Line": "یک تمرین برای هر روز سال، یکی‌یکی ثبت‌شده.",
   "awardTonnes10Name": "ده تن",
   "awardTonnes10Line": "ده هزار کیلو از دستانت گذشته.",
   "awardHours100Name": "صد ساعت",
   "awardHours100Line": "صد ساعت زیر میله، کرونومتر در دست.",
-  "awardWonOn": "کسب‌شده در {date}",
+  "awardWonOn": "گرفته‌شده در {date}",
   "@awardWonOn": {
     "placeholders": {
       "date": {
@@ -1338,10 +1338,10 @@
   "startTitle": "شروع تمرین",
   "logTitle": "ثبت تمرین",
   "logHint": "بدون تایمر — فقط آنچه کردی را پر کن.",
-  "orStartFrom": "یا شروع از",
+  "orStartFrom": "یا شروع کن از",
   "pickExercisesOption": "انتخاب حرکات",
   "chooseFocusOption": "انتخاب تمرکز",
-  "plannedRoutine": "برنامه‌ریزی‌شده",
+  "plannedRoutine": "طبق برنامه",
   "logWorkoutAction": "ثبت تمرین",
   "logging": "در حال ثبت",
   "placesLabel": "مکان‌های من",
@@ -1380,11 +1380,11 @@
   "suggestedPicks": "پیشنهادی برای تو",
   "moreOptions": "گزینه‌های بیشتر",
   "suggestInWorkouts": "پیشنهاد در تمرین‌های سریع",
-  "suggestInWorkoutsHint": "خاموش یعنی از انتخاب‌های برایت ساخته‌شده بیرون می‌ماند. هنوز می‌توانی دستی اضافه‌اش کنی.",
+  "suggestInWorkoutsHint": "اگر خاموش باشد در پیشنهادهایی که برایت می‌آید نشان داده نمی‌شود. هنوز می‌توانی دستی اضافه‌اش کنی.",
   "dontSuggest": "دیگر پیشنهادش نکن",
   "noLongerSuggested": "دیگر پیشنهاد نمی‌شود",
   "onbPlaceTitle": "کجا تمرین می‌کنی؟",
-  "onbPlaceWhy": "هر جایی که تمرین می‌کنی را انتخاب کن. فقط آنچه در هر کدام می‌توانی را پیشنهاد می‌دهیم.",
+  "onbPlaceWhy": "هر جایی که تمرین می‌کنی را انتخاب کن. فقط چیزهایی را پیشنهاد می‌دهیم که آنجا می‌توانی بزنی.",
   "onbPlaceGear": "آنجا چه داری؟",
   "distanceCol": "مسافت ({unit})",
   "@distanceCol": {
@@ -1429,13 +1429,13 @@
   "setTypeRestPause": "رست-پاز",
   "planFormatNotes": "نام حرکات را دقیقاً همان‌طور که در فهرست آمده استفاده کن. «sets»، «reps»، «weight» (با واحد داده‌شده)، «rest» به ثانیه و «days» اختیاری‌اند. «superset»: true یک حرکت را به بعدی وصل می‌کند. برای چند هفته، روتین‌ها را داخل «weeks» مثل مثال دوم گروه‌بندی کن.",
   "planSets": "برنامه ست‌ها",
-  "planSetsHint": "نوع، تکرار و وزن هر ست را انتخاب کن. وزن را روی Auto بگذار تا از آخرین جلسه تمرینت شروع شود.",
-  "autoValue": "Auto",
+  "planSetsHint": "نوع، تکرار و وزن هر ست را انتخاب کن. وزن را روی خودکار بگذار تا از آخرین جلسه تمرینت شروع شود.",
+  "autoValue": "خودکار",
   "clearPlan": "پاک کردن برنامه",
   "planChip": "برنامه",
   "shareRoutine": "اشتراک روتین",
   "shareWeek": "اشتراک هفته‌ام",
-  "shareWeekHint": "همه روتین‌هایت و روزی که هر کدام روی آن است.",
+  "shareWeekHint": "همه روتین‌هایت و روز هر کدام.",
   "shareMessage": "{name} — فایل را با GymMane باز کن تا اضافه‌اش کند.",
   "@shareMessage": {
     "placeholders": {
@@ -1445,7 +1445,7 @@
     }
   },
   "importRoutines": "وارد کردن روتین‌ها",
-  "importPasteHint": "اینجا یک روتین پیست کن: یکی که از GymMane شیر شده، جواب AI، JSON یا CSV.",
+  "importPasteHint": "اینجا یک روتین پیست کن: یکی که از GymMane اشتراک شده، جواب AI، JSON یا CSV.",
   "pasteAction": "پیست",
   "routineCount": "{n, plural, =1{۱ روتین} other{{n} روتین}}",
   "@routineCount": {
@@ -1495,8 +1495,8 @@
     }
   },
   "recoveryTired": "خسته",
-  "recoveryFresh": "تازه",
-  "recoveryHint": "یک عضله را لمس کن تا ببینی چقدر ریکاوری شده. ست‌های اخیر وزن بیشتری دارند، و سخت‌ترها (بر اساس RPE) بیشتر.",
+  "recoveryFresh": "آماده",
+  "recoveryHint": "یک عضله را لمس کن تا ببینی چقدر ریکاوری شده. ست‌های اخیر تأثیر بیشتری دارند، و سخت‌ترها (بر اساس RPE) بیشتر.",
   "recoveryPct": "{pct}٪ ریکاوری",
   "@recoveryPct": {
     "placeholders": {
@@ -1505,7 +1505,7 @@
       }
     }
   },
-  "readyInHours": "آماده تا حدود {h} س",
+  "readyInHours": "حدود {h} ساعت دیگر آماده",
   "@readyInHours": {
     "placeholders": {
       "h": {
@@ -1513,13 +1513,13 @@
       }
     }
   },
-  "tplAbcd": "چهار روز: سینه و پشت‌بازو، پشت و جلوبازو، پا، شانه و شکم.",
+  "tplAbcd": "چهار روز: سینه و پشت‌بازو، پشت و جلو‌بازو، پا، شانه و شکم.",
   "tplAbcde": "پنج روز، هر کدام یک گروه عضلانی: سینه، پشت، پا، شانه، بازو.",
   "elapsedCaps": "گذشته",
   "tapToSkip": "لمس برای رد کردن",
   "tapToStop": "لمس برای توقف",
   "screenLocked": "صفحه قفل است",
-  "lockedHint": "اثر انگشت بالای صفحه را فشار بده و نگه دار تا باز شود",
+  "lockedHint": "اثر انگشت بالای صفحه را فشار بده و نگه‌دار تا باز شود",
   "liveDoneSet": "ست انجام شد",
   "liveSkipRest": "رد کردن استراحت",
   "livePause": "توقف",
@@ -1538,7 +1538,7 @@
   "stickerWorkout": "تمرین",
   "stickerStreak": "استریک",
   "stickerDate": "تاریخ",
-  "stickerHint": "بکش تا جابه‌جا شود، پینچ کن تا اندازه یا چرخش عوض شود",
+  "stickerHint": "بکش تا جابه‌جا شود، با دو انگشت اندازه یا چرخش را عوض کن",
   "stickerSaved": "در گالری ذخیره شد",
   "stickerWeek": "این هفته",
   "getReady": "آماده شو",
@@ -1550,8 +1550,8 @@
   "radarTitle": "این ماه",
   "radarHint": "ببین کدام نواحی کار بیشتری می‌خواهند",
   "radarEmpty": "این ماه تمرین کن تا تعادلت را ببینی",
-  "radarBalanced": "تا اینجا تعادل خوب",
-  "radarFocus": "نیاز به بیشتر: {list}",
+  "radarBalanced": "تا اینجا تعادل خوب است",
+  "radarFocus": "بیشتر کار می‌خواهد: {list}",
   "@radarFocus": {
     "placeholders": {
       "list": {
@@ -1563,9 +1563,9 @@
   "countdownSkip": "لمس برای شروع الان",
   "countdownSetting": "شمارش معکوس قبل از شروع",
   "effortSetting": "ثبت تلاش در هر ست",
-  "effortHint": "RPE: ۱۰ یعنی هیچی نمانده، ۸ یعنی دو تکرار ذخیره. RIR تکرارهای باقی‌مانده را می‌شمارد. وقتی ستی آن را دارد، تخمین 1RM از جدول RPE استفاده می‌کند.",
-  "rirTitle": "ذخیره (RIR)",
-  "rirHint": "۰ یعنی هیچی در مخزن نمانده، ۲ یعنی دو تکرار ذخیره.",
+  "effortHint": "RPE: ۱۰ یعنی دیگر نمی‌توانی، ۸ یعنی دو تکرار مانده. RIR تکرارهای مانده را می‌شمارد. وقتی ستی آن را دارد، تخمین 1RM از جدول RPE استفاده می‌کند.",
+  "rirTitle": "مانده (RIR)",
+  "rirHint": "۰ یعنی دیگر نمی‌توانی، ۲ یعنی دو تکرار مانده.",
   "addWeekWidget": "افزودن ویجت هفته",
   "gamificationSetting": "مدال‌ها و سطوح"
 }
